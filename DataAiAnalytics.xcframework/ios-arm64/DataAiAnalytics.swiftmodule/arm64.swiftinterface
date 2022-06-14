@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name DataAiAnalytics
+import BackgroundTasks
+import Combine
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+public enum AppEventType {
+  case buttonClick
+  case viewOpen
+  case stateTransition
+  case custom(Swift.String)
+}
+public enum LifeCycleEvent {
+  case active
+  case inactive
+  case background
+  public static func == (a: DataAiAnalytics.LifeCycleEvent, b: DataAiAnalytics.LifeCycleEvent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Analytics {
+  public static func startTrackingLifeCycleEvent()
+  public static func track(_ eventType: DataAiAnalytics.AppEventType, withName eventName: Swift.String)
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func getAllEvents() async -> [DataAiAnalytics.AppEvent]
+  #endif
+
+  public static func getAllEvents(completion: @escaping ([DataAiAnalytics.AppEvent]) -> ())
+  @objc deinit
+}
+public struct AppEvent : Swift.Codable {
+}
+extension DataAiAnalytics.AppEvent {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "17171D0D-2E6D-46F4-AC72-3B3786DC2256"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99154538-3774-49E8-AEE1-254BD34B354D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataAnalytics/AnalyticsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "checkState()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99154538-3774-49E8-AEE1-254BD34B354D - cf30a2df20835ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in AnalyticsApp.AnalyticsService.checkState() -&gt; ()"
+                  moduleName = "AnalyticsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenymitko/Documents/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/CV/iOS%20Developer/Assignment/data.ai/AnalyticsApp/DataAnalytics/AnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "99154538-3774-49E8-AEE1-254BD34B354D - 486193bbbb182f84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AnalyticsApp.AnalyticsService.checkState() -&gt; ()"
+                  moduleName = "AnalyticsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenymitko/Documents/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/CV/iOS%20Developer/Assignment/data.ai/AnalyticsApp/DataAnalytics/AnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "99154538-3774-49E8-AEE1-254BD34B354D - b7d34c89d42f8d85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AnalyticsApp.AnalyticsService.checkState() -&gt; ()"
+                  moduleName = "AnalyticsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenymitko/Documents/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/CV/iOS%20Developer/Assignment/data.ai/AnalyticsApp/DataAnalytics/AnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "99154538-3774-49E8-AEE1-254BD34B354D - a2853997e6c36b86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AnalyticsApp.AnalyticsService.checkState() -&gt; ()"
+                  moduleName = "AnalyticsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenymitko/Documents/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/CV/iOS%20Developer/Assignment/data.ai/AnalyticsApp/DataAnalytics/AnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  uuid = "99154538-3774-49E8-AEE1-254BD34B354D - 8874ea6533d6c987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AnalyticsApp.AnalyticsService.checkState() -&gt; ()"
+                  moduleName = "AnalyticsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/evgenymitko/Documents/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/CV/iOS%20Developer/Assignment/data.ai/AnalyticsApp/DataAnalytics/AnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A02F0970-988B-4474-9EA5-1660C052630C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataAnalytics/AnalyticsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

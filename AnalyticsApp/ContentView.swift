@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DataAiAnalytics
 
 struct ContentView: View {
     
@@ -14,13 +15,13 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 40) {
             Button("Track Screen View") {
-                Analytics.track(.viewOpen, eventName: String(describing: type(of: self)))
+                Analytics.track(.viewOpen, withName: String(describing: type(of: self)))
             }
             Button("Track Button Click") {
-                Analytics.track(.buttonClick, eventName: "Log In Button")
+                Analytics.track(.buttonClick, withName: "Log In Button")
             }
             Button("Track Custom Event") {
-                Analytics.track(.custom("DB Process"), eventName: "🤦🏼‍♂️ DB erased itself")
+                Analytics.track(.custom("DB Process"), withName: "🤦🏼‍♂️ DB erased itself")
             }
             
             Button("print current list of events") {
