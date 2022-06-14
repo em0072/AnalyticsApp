@@ -14,6 +14,16 @@
 		754E05C2285736C800B29639 /* AnalyticsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E05C1285736C800B29639 /* AnalyticsAppTests.swift */; };
 		754E05CC285736C800B29639 /* AnalyticsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E05CB285736C800B29639 /* AnalyticsAppUITests.swift */; };
 		754E05CE285736C800B29639 /* AnalyticsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E05CD285736C800B29639 /* AnalyticsAppUITestsLaunchTests.swift */; };
+		754E05DC2857372100B29639 /* AnalyticsEventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E05DB2857372100B29639 /* AnalyticsEventService.swift */; };
+		754E05DE28573D3800B29639 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E05DD28573D3800B29639 /* Analytics.swift */; };
+		754E061C2857401600B29639 /* LifeCycleEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E061B2857401600B29639 /* LifeCycleEvent.swift */; };
+		754E061F285740C200B29639 /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E061E285740C200B29639 /* AppEvent.swift */; };
+		754E06232857650400B29639 /* AnalyticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E06222857650400B29639 /* AnalyticsController.swift */; };
+		754E062528576C9100B29639 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E062428576C9100B29639 /* NetworkService.swift */; };
+		754E062728576FCA00B29639 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E062628576FCA00B29639 /* NetworkError.swift */; };
+		754E06292857881A00B29639 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E06282857881900B29639 /* Network.swift */; };
+		754E062B28578CA600B29639 /* AnalyticsBatchUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E062A28578CA600B29639 /* AnalyticsBatchUpdate.swift */; };
+		754E062D28578FC100B29639 /* AppEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E062C28578FC100B29639 /* AppEventType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,17 @@
 		754E05C7285736C800B29639 /* AnalyticsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E05CB285736C800B29639 /* AnalyticsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsAppUITests.swift; sourceTree = "<group>"; };
 		754E05CD285736C800B29639 /* AnalyticsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		754E05DB2857372100B29639 /* AnalyticsEventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEventService.swift; sourceTree = "<group>"; };
+		754E05DD28573D3800B29639 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		754E061B2857401600B29639 /* LifeCycleEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleEvent.swift; sourceTree = "<group>"; };
+		754E061E285740C200B29639 /* AppEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvent.swift; sourceTree = "<group>"; };
+		754E06202857599E00B29639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		754E06222857650400B29639 /* AnalyticsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsController.swift; sourceTree = "<group>"; };
+		754E062428576C9100B29639 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		754E062628576FCA00B29639 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		754E06282857881900B29639 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		754E062A28578CA600B29639 /* AnalyticsBatchUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsBatchUpdate.swift; sourceTree = "<group>"; };
+		754E062C28578FC100B29639 /* AppEventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				754E05AF285736C500B29639 /* AnalyticsApp */,
+				754E05DA285736ED00B29639 /* DataAnalytics */,
 				754E05C0285736C800B29639 /* AnalyticsAppTests */,
 				754E05CA285736C800B29639 /* AnalyticsAppUITests */,
 				754E05AE285736C500B29639 /* Products */,
@@ -94,6 +116,7 @@
 		754E05AF285736C500B29639 /* AnalyticsApp */ = {
 			isa = PBXGroup;
 			children = (
+				754E06202857599E00B29639 /* Info.plist */,
 				754E05B0285736C500B29639 /* AnalyticsAppApp.swift */,
 				754E05B2285736C500B29639 /* ContentView.swift */,
 				754E05B4285736C700B29639 /* Assets.xcassets */,
@@ -125,6 +148,39 @@
 				754E05CD285736C800B29639 /* AnalyticsAppUITestsLaunchTests.swift */,
 			);
 			path = AnalyticsAppUITests;
+			sourceTree = "<group>";
+		};
+		754E05DA285736ED00B29639 /* DataAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				754E062428576C9100B29639 /* NetworkService.swift */,
+				754E05DB2857372100B29639 /* AnalyticsEventService.swift */,
+				754E06222857650400B29639 /* AnalyticsController.swift */,
+				754E05DD28573D3800B29639 /* Analytics.swift */,
+				754E061D2857405600B29639 /* Models */,
+				754E0621285762EF00B29639 /* Constants */,
+			);
+			path = DataAnalytics;
+			sourceTree = "<group>";
+		};
+		754E061D2857405600B29639 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				754E061B2857401600B29639 /* LifeCycleEvent.swift */,
+				754E062C28578FC100B29639 /* AppEventType.swift */,
+				754E061E285740C200B29639 /* AppEvent.swift */,
+				754E062A28578CA600B29639 /* AnalyticsBatchUpdate.swift */,
+				754E062628576FCA00B29639 /* NetworkError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		754E0621285762EF00B29639 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				754E06282857881900B29639 /* Network.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +313,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754E06292857881A00B29639 /* Network.swift in Sources */,
 				754E05B3285736C500B29639 /* ContentView.swift in Sources */,
+				754E05DC2857372100B29639 /* AnalyticsEventService.swift in Sources */,
+				754E062528576C9100B29639 /* NetworkService.swift in Sources */,
+				754E06232857650400B29639 /* AnalyticsController.swift in Sources */,
+				754E05DE28573D3800B29639 /* Analytics.swift in Sources */,
+				754E062D28578FC100B29639 /* AppEventType.swift in Sources */,
+				754E061C2857401600B29639 /* LifeCycleEvent.swift in Sources */,
+				754E062728576FCA00B29639 /* NetworkError.swift in Sources */,
+				754E062B28578CA600B29639 /* AnalyticsBatchUpdate.swift in Sources */,
+				754E061F285740C200B29639 /* AppEvent.swift in Sources */,
 				754E05B1285736C500B29639 /* AnalyticsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,11 +488,13 @@
 				DEVELOPMENT_TEAM = 65952893XA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnalyticsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +519,13 @@
 				DEVELOPMENT_TEAM = 65952893XA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnalyticsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
