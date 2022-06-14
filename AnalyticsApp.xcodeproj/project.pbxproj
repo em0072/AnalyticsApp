@@ -11,7 +11,7 @@
 		754E05B3285736C500B29639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E05B2285736C500B29639 /* ContentView.swift */; };
 		754E05B5285736C700B29639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754E05B4285736C700B29639 /* Assets.xcassets */; };
 		754E05B8285736C700B29639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754E05B7285736C700B29639 /* Preview Assets.xcassets */; };
-		7583D5BE2858D5120037746C /* DataAiAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7583D5BD2858D5120037746C /* DataAiAnalytics.xcframework */; };
+		7583D5D72858E19B0037746C /* DataAiAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7583D5D62858E19B0037746C /* DataAiAnalytics.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		754E05BD285736C800B29639 /* AnalyticsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E05C7285736C800B29639 /* AnalyticsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754E06202857599E00B29639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		7583D5BD2858D5120037746C /* DataAiAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DataAiAnalytics.xcframework; sourceTree = "<group>"; };
+		7583D5D62858E19B0037746C /* DataAiAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DataAiAnalytics.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7583D5BE2858D5120037746C /* DataAiAnalytics.xcframework in Frameworks */,
+				7583D5D72858E19B0037746C /* DataAiAnalytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 		7583D5BF2858D5230037746C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7583D5BD2858D5120037746C /* DataAiAnalytics.xcframework */,
+				7583D5D62858E19B0037746C /* DataAiAnalytics.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
